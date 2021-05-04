@@ -3162,7 +3162,7 @@ mjx-container[display="true"] + br {
 /* post-行内代码 */
 code {
   font-size: 0.95em;
-  background: var(--highlight-background);
+  background: none;
   color: #ff7600;
 }
 /* post-思源宋体列表打叉修复 */
