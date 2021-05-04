@@ -1,1 +1,1 @@
-# CDN for personal blog
+# CDN for my blog
