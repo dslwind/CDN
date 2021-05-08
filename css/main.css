@@ -213,7 +213,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
   line-height: 2;
   min-height: 100%;
@@ -226,7 +226,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1358,7 +1358,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1464,35 +1464,6 @@ pre code {
 }
 .use-motion .menu-item {
   visibility: hidden;
-}
-.book-mark-link {
-  border-bottom: 0;
-  position: fixed;
-  top: -10px;
-  transition: top 0.3s;
-  right: 30px;
-}
-@media (max-width: 991px) {
-  .book-mark-link {
-    right: 20px;
-  }
-}
-@media (max-width: 991px) {
-  .book-mark-link {
-    display: none;
-  }
-}
-.book-mark-link::before {
-  color: #222;
-  font-size: 32px;
-  line-height: 1;
-  content: '\f02e';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-}
-.book-mark-link:hover,
-.book-mark-link-fixed {
-  top: -2px;
 }
 .github-corner :hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
@@ -2200,7 +2171,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2394,7 +2365,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -3167,4 +3138,8 @@ code {
 /* post-思源宋体列表打叉修复 */
 li {
   text-align: left;
+}
+/* post-文章标题 */
+.posts-expand .post-title {
+  font-weight: bold;
 }
